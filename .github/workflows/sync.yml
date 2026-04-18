@@ -5,6 +5,9 @@ on:
     - cron: '0 0 * * 1' # 毎週月曜 AM9:00 (JST) ※UTC 0:00
   workflow_dispatch: # 手動実行ボタンも追加
 
+permissions:
+  contents: write
+
 jobs:
   build:
     runs-on: ubuntu-latest
