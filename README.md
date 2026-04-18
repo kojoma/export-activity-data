@@ -1,1 +1,1 @@
-# export-garmin-connect
+# export-activity-data
