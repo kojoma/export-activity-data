@@ -43,7 +43,6 @@ def main():
         if local_start < earliest_date: earliest_date = local_start
         if local_start > latest_date: latest_date = local_start
 
-        full_activity = client.get_activity(activity.id)
         laps = client.get_activity_laps(activity.id)
 
         activity_summary = {
