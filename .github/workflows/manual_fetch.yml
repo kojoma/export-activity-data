@@ -51,5 +51,5 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: activity-${{ env.TARGET_DATE }}
-          path: data/*.json
+          path: data/activity_${{ env.TARGET_DATE }}.json
           retention-days: 7
