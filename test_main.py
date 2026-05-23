@@ -5,6 +5,7 @@ from datetime import datetime
 
 # テスト対象の関数と定数をインポート
 from main import (
+    main,
     m_per_s_to_pace,
     get_strava_client,
     fetch_run_activities,
@@ -189,3 +190,14 @@ def test_save_to_json_success(mocker):
     assert filename == "data/activities_20260501_20260507.json"
     mock_file.assert_called_once_with("data/activities_20260501_20260507.json", "w", encoding="utf-8")
     mock_json_dump.assert_called_once()
+
+def test_main_manual_mode_invalid_date(mocker):
+    # sys.argv に不正な日付をモック
+    mocker.patch("sys.argv", ["main.py", "invalid-date"])
+    mocker.patch("os.getenv", side_effect=lambda key: "dummy_value")
+
+    # sys.exit(1) が呼ばれることを検証
+    with pytest.raises(SystemExit) as exc_info:
+        main()
+    
+    assert exc_info.value.code == 1

@@ -97,9 +97,25 @@ def main():
 
     client = get_strava_client(client_id, client_secret, refresh_token)
 
-    # 直近7日間を対象
-    end_date = datetime.now()
-    start_date = end_date - timedelta(days=7)
+    is_manual = False
+    target_date_str = None
+
+    if len(sys.argv) > 1:
+        # 引数で指定された特定の日（JST）の00:00:00〜23:59:59を対象にする
+        target_date_str = sys.argv[1]
+        try:
+            target_date = datetime.strptime(target_date_str, "%Y-%m-%d")
+            start_date = target_date - timedelta(hours=9)  # UTCに簡易変換
+            end_date = start_date + timedelta(days=1)
+            is_manual = True
+            print(f"Target date (JST): {target_date_str}")
+        except ValueError:
+            print("Error: Invalid date format. Please use YYYY-MM-DD.")
+            sys.exit(1)
+    else:
+        # 直近7日間を対象
+        end_date = datetime.now()
+        start_date = end_date - timedelta(days=7)
     
     activities = fetch_run_activities(client, start_date)
 
@@ -113,6 +129,10 @@ def main():
         if activity.type != 'Run':
             continue
 
+        # 手動特定日指定の場合、その日の枠（JST）を超えたデータは除外
+        if is_manual and activity.start_date_local.strftime("%Y-%m-%d") != target_date_str:
+            continue
+
         local_start = activity.start_date_local
         if local_start < earliest_date: earliest_date = local_start
         if local_start > latest_date: latest_date = local_start
@@ -122,10 +142,23 @@ def main():
             all_activity_data.append(activity_summary)
 
     if not all_activity_data:
-        print("No run activities found in the last 7 days.")
+        period_str = f"date {target_date_str}" if is_manual else "last 7 days"
+        print(f"No run activities found for the {period_str}.")
         return
 
-    output_filename = save_to_json(all_activity_data, earliest_date, latest_date)
+    # ファイル保存
+    if is_manual:
+        os.makedirs("data", exist_ok=True)
+        output_filename = f"data/activity_{target_date_str}.json"
+        try:
+            with open(output_filename, "w", encoding="utf-8") as f:
+                json.dump(all_activity_data, f, ensure_ascii=False, indent=2)
+        except Exception as e:
+            print(f"Error saving data to JSON file: {e}")
+            sys.exit(1)
+    else:
+        output_filename = save_to_json(all_activity_data, earliest_date, latest_date)
+
     print(f"Success! Saved to {output_filename}")
 
 if __name__ == "__main__":
