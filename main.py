@@ -4,10 +4,13 @@ import sys
 from datetime import datetime, timedelta
 from stravalib.client import Client
 
+# m/s から min/km への変換係数 (1000m / 60秒)
+M_PER_S_TO_MIN_PER_KM_FACTOR = 1000 / 60
+
 def m_per_s_to_pace(m_per_s):
     if not m_per_s or m_per_s == 0:
         return None
-    pace_min_per_km = 16.6667 / m_per_s
+    pace_min_per_km = M_PER_S_TO_MIN_PER_KM_FACTOR / m_per_s
     minutes = int(pace_min_per_km)
     seconds = int((pace_min_per_km - minutes) * 60)
     return f"{minutes}:{seconds:02d}"
@@ -76,7 +79,7 @@ def main():
             "moving_time_sec": activity.moving_time.total_seconds() if activity.moving_time is not None else 0.0,
             "average_pace": m_per_s_to_pace(float(activity.average_speed)) if activity.average_speed is not None else None,
             "average_heartrate": getattr(activity, 'average_heartrate', None),
-            "average_cadence": getattr(activity, 'average_cadence', None),
+            "average_cadence": (activity.average_cadence * 2) if getattr(activity, 'average_cadence', None) else None,
             "laps": []
         }
 
