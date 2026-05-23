@@ -1,0 +1,55 @@
+name: Manual Fetch Activity
+
+on:
+  workflow_dispatch:
+    inputs:
+      target_date:
+        description: '取得対象の日付 (YYYY-MM-DD)。TODAY を指定した場合は、実行日の日付（日本時間基準）が自動的に適用されます。'
+        required: true
+        default: 'TODAY'
+
+permissions:
+  contents: read
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.9'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install stravalib
+
+      - name: Calculate Target Date
+        run: |
+          INPUT_DATE="${{ github.event.inputs.target_date }}"
+          if [ "$INPUT_DATE" = "TODAY" ]; then
+            # 日本時間 (JST) の本日の日付を YYYY-MM-DD 形式で算出
+            TARGET_DATE=$(TZ=Asia/Tokyo date +'%Y-%m-%d')
+          else
+            TARGET_DATE="$INPUT_DATE"
+          fi
+          echo "TARGET_DATE=$TARGET_DATE" >> $GITHUB_ENV
+
+      - name: Run script for target date
+        env:
+          STRAVA_CLIENT_ID: ${{ secrets.STRAVA_CLIENT_ID }}
+          STRAVA_CLIENT_SECRET: ${{ secrets.STRAVA_CLIENT_SECRET }}
+          STRAVA_REFRESH_TOKEN: ${{ secrets.STRAVA_REFRESH_TOKEN }}
+        run: python main.py ${{ env.TARGET_DATE }}
+
+      - name: Upload Activity Data as Artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: activity-${{ env.TARGET_DATE }}
+          path: data/*.json
+          retention-days: 7
