@@ -1,0 +1,500 @@
+[
+  {
+    "activity_id": 18560388474,
+    "name": "朝のランニング",
+    "start_time": "2026-05-19T05:53:09",
+    "distance_km": 7.0,
+    "moving_time_sec": 2548.0,
+    "average_pace": "6:03",
+    "average_heartrate": 127.2,
+    "average_cadence": 192.4,
+    "laps": [
+      {
+        "lap_index": 1,
+        "distance_m": 1000.0,
+        "total_elevation_gain_m": 11.8,
+        "average_pace": "6:14",
+        "average_heartrate": 114.0
+      },
+      {
+        "lap_index": 2,
+        "distance_m": 1000.0,
+        "total_elevation_gain_m": 2.0,
+        "average_pace": "6:53",
+        "average_heartrate": 123.5
+      },
+      {
+        "lap_index": 3,
+        "distance_m": 1000.0,
+        "total_elevation_gain_m": 0.0,
+        "average_pace": "6:01",
+        "average_heartrate": 123.8
+      },
+      {
+        "lap_index": 4,
+        "distance_m": 1000.0,
+        "total_elevation_gain_m": 4.6,
+        "average_pace": "5:58",
+        "average_heartrate": 129.5
+      },
+      {
+        "lap_index": 5,
+        "distance_m": 1000.0,
+        "total_elevation_gain_m": 3.0,
+        "average_pace": "6:21",
+        "average_heartrate": 131.8
+      },
+      {
+        "lap_index": 6,
+        "distance_m": 1000.0,
+        "total_elevation_gain_m": 3.0,
+        "average_pace": "5:52",
+        "average_heartrate": 131.9
+      },
+      {
+        "lap_index": 7,
+        "distance_m": 1000.0,
+        "total_elevation_gain_m": 7.2,
+        "average_pace": "5:59",
+        "average_heartrate": 136.8
+      },
+      {
+        "lap_index": 8,
+        "distance_m": 4.77,
+        "total_elevation_gain_m": 0.0,
+        "average_pace": "10:28",
+        "average_heartrate": 0.0
+      }
+    ]
+  },
+  {
+    "activity_id": 18574090436,
+    "name": "朝のランニング",
+    "start_time": "2026-05-20T05:26:09",
+    "distance_km": 12.62,
+    "moving_time_sec": 4091.0,
+    "average_pace": "5:24",
+    "average_heartrate": 143.3,
+    "average_cadence": 191.8,
+    "laps": [
+      {
+        "lap_index": 1,
+        "distance_m": 1000.0,
+        "total_elevation_gain_m": 2.0,
+        "average_pace": "5:55",
+        "average_heartrate": 120.8
+      },
+      {
+        "lap_index": 2,
+        "distance_m": 1000.0,
+        "total_elevation_gain_m": 20.8,
+        "average_pace": "5:43",
+        "average_heartrate": 137.3
+      },
+      {
+        "lap_index": 3,
+        "distance_m": 1000.0,
+        "total_elevation_gain_m": 20.4,
+        "average_pace": "5:30",
+        "average_heartrate": 146.7
+      },
+      {
+        "lap_index": 4,
+        "distance_m": 1000.0,
+        "total_elevation_gain_m": 5.4,
+        "average_pace": "5:17",
+        "average_heartrate": 141.6
+      },
+      {
+        "lap_index": 5,
+        "distance_m": 1000.0,
+        "total_elevation_gain_m": 11.2,
+        "average_pace": "5:24",
+        "average_heartrate": 141.6
+      },
+      {
+        "lap_index": 6,
+        "distance_m": 1000.0,
+        "total_elevation_gain_m": 5.2,
+        "average_pace": "5:15",
+        "average_heartrate": 141.9
+      },
+      {
+        "lap_index": 7,
+        "distance_m": 1000.0,
+        "total_elevation_gain_m": 9.0,
+        "average_pace": "5:20",
+        "average_heartrate": 144.8
+      },
+      {
+        "lap_index": 8,
+        "distance_m": 1000.0,
+        "total_elevation_gain_m": 0.0,
+        "average_pace": "5:21",
+        "average_heartrate": 139.2
+      },
+      {
+        "lap_index": 9,
+        "distance_m": 1000.0,
+        "total_elevation_gain_m": 13.8,
+        "average_pace": "5:19",
+        "average_heartrate": 148.7
+      },
+      {
+        "lap_index": 10,
+        "distance_m": 1000.0,
+        "total_elevation_gain_m": 16.4,
+        "average_pace": "5:16",
+        "average_heartrate": 152.4
+      },
+      {
+        "lap_index": 11,
+        "distance_m": 1000.0,
+        "total_elevation_gain_m": 5.4,
+        "average_pace": "5:08",
+        "average_heartrate": 149.9
+      },
+      {
+        "lap_index": 12,
+        "distance_m": 1000.0,
+        "total_elevation_gain_m": 22.0,
+        "average_pace": "5:14",
+        "average_heartrate": 157.2
+      },
+      {
+        "lap_index": 13,
+        "distance_m": 624.26,
+        "total_elevation_gain_m": 0.0,
+        "average_pace": "5:12",
+        "average_heartrate": 144.6
+      }
+    ]
+  },
+  {
+    "activity_id": 18613391825,
+    "name": "朝のランニング",
+    "start_time": "2026-05-23T06:25:22",
+    "distance_km": 4.02,
+    "moving_time_sec": 1265.0,
+    "average_pace": "5:14",
+    "average_heartrate": 135.1,
+    "average_cadence": 197.6,
+    "laps": [
+      {
+        "lap_index": 1,
+        "distance_m": 1000.0,
+        "total_elevation_gain_m": 12.0,
+        "average_pace": "5:54",
+        "average_heartrate": 124.4
+      },
+      {
+        "lap_index": 2,
+        "distance_m": 1000.0,
+        "total_elevation_gain_m": 3.0,
+        "average_pace": "5:15",
+        "average_heartrate": 133.9
+      },
+      {
+        "lap_index": 3,
+        "distance_m": 1000.0,
+        "total_elevation_gain_m": 3.0,
+        "average_pace": "5:03",
+        "average_heartrate": 142.6
+      },
+      {
+        "lap_index": 4,
+        "distance_m": 1000.0,
+        "total_elevation_gain_m": 0.2,
+        "average_pace": "5:04",
+        "average_heartrate": 140.7
+      },
+      {
+        "lap_index": 5,
+        "distance_m": 20.58,
+        "total_elevation_gain_m": 0.0,
+        "average_pace": "3:14",
+        "average_heartrate": 142.3
+      }
+    ]
+  },
+  {
+    "activity_id": 18613449282,
+    "name": "ウィンドスプリント",
+    "start_time": "2026-05-23T06:50:07",
+    "distance_km": 0.54,
+    "moving_time_sec": 212.0,
+    "average_pace": "6:31",
+    "average_heartrate": 108.1,
+    "average_cadence": 143.4,
+    "laps": [
+      {
+        "lap_index": 1,
+        "distance_m": 85.06,
+        "total_elevation_gain_m": 0.0,
+        "average_pace": "2:56",
+        "average_heartrate": 92.1
+      },
+      {
+        "lap_index": 2,
+        "distance_m": 88.84,
+        "total_elevation_gain_m": 0.0,
+        "average_pace": "22:31",
+        "average_heartrate": 115.7
+      },
+      {
+        "lap_index": 3,
+        "distance_m": 88.79,
+        "total_elevation_gain_m": 0.0,
+        "average_pace": "2:48",
+        "average_heartrate": 92.3
+      },
+      {
+        "lap_index": 4,
+        "distance_m": 160.52,
+        "total_elevation_gain_m": 0.0,
+        "average_pace": "12:26",
+        "average_heartrate": 111.4
+      },
+      {
+        "lap_index": 5,
+        "distance_m": 93.92,
+        "total_elevation_gain_m": 0.0,
+        "average_pace": "2:39",
+        "average_heartrate": 99.6
+      },
+      {
+        "lap_index": 6,
+        "distance_m": 26.6,
+        "total_elevation_gain_m": 0.0,
+        "average_pace": "3:07",
+        "average_heartrate": 108.0
+      }
+    ]
+  },
+  {
+    "activity_id": 18613550598,
+    "name": "3km走 DNF",
+    "start_time": "2026-05-23T07:02:16",
+    "distance_km": 1.61,
+    "moving_time_sec": 370.0,
+    "average_pace": "3:50",
+    "average_heartrate": 157.5,
+    "average_cadence": 196.8,
+    "laps": [
+      {
+        "lap_index": 1,
+        "distance_m": 1000.0,
+        "total_elevation_gain_m": 3.6,
+        "average_pace": "3:49",
+        "average_heartrate": 151.9
+      },
+      {
+        "lap_index": 2,
+        "distance_m": 609.23,
+        "total_elevation_gain_m": 0.0,
+        "average_pace": "3:48",
+        "average_heartrate": 166.7
+      }
+    ]
+  },
+  {
+    "activity_id": 18613611672,
+    "name": "1.5kmインターバルx2 仕切り直し",
+    "start_time": "2026-05-23T07:16:05",
+    "distance_km": 0.26,
+    "moving_time_sec": 54.0,
+    "average_pace": "3:24",
+    "average_heartrate": 118.6,
+    "average_cadence": 203.6,
+    "laps": [
+      {
+        "lap_index": 1,
+        "distance_m": 263.77,
+        "total_elevation_gain_m": 2.0,
+        "average_pace": "3:20",
+        "average_heartrate": 118.6
+      }
+    ]
+  },
+  {
+    "activity_id": 18613711792,
+    "name": "1.5kmインターバルx2 DNF",
+    "start_time": "2026-05-23T07:19:55",
+    "distance_km": 2.14,
+    "moving_time_sec": 595.0,
+    "average_pace": "4:38",
+    "average_heartrate": 151.3,
+    "average_cadence": 178.4,
+    "laps": [
+      {
+        "lap_index": 1,
+        "distance_m": 1000.0,
+        "total_elevation_gain_m": 2.4,
+        "average_pace": "3:45",
+        "average_heartrate": 155.0
+      },
+      {
+        "lap_index": 2,
+        "distance_m": 500.0,
+        "total_elevation_gain_m": 0.0,
+        "average_pace": "3:54",
+        "average_heartrate": 165.4
+      },
+      {
+        "lap_index": 3,
+        "distance_m": 200.0,
+        "total_elevation_gain_m": 2.6,
+        "average_pace": "13:07",
+        "average_heartrate": 132.6
+      },
+      {
+        "lap_index": 4,
+        "distance_m": 438.05,
+        "total_elevation_gain_m": 1.2,
+        "average_pace": "3:43",
+        "average_heartrate": 151.4
+      }
+    ]
+  },
+  {
+    "activity_id": 18613765775,
+    "name": "1kmタイムトライアル DNF",
+    "start_time": "2026-05-23T07:35:37",
+    "distance_km": 0.37,
+    "moving_time_sec": 75.0,
+    "average_pace": "3:25",
+    "average_heartrate": 139.3,
+    "average_cadence": 199.6,
+    "laps": [
+      {
+        "lap_index": 1,
+        "distance_m": 365.54,
+        "total_elevation_gain_m": 0.0,
+        "average_pace": "3:25",
+        "average_heartrate": 139.3
+      }
+    ]
+  },
+  {
+    "activity_id": 18613970317,
+    "name": "朝のランニング",
+    "start_time": "2026-05-23T07:39:58",
+    "distance_km": 4.03,
+    "moving_time_sec": 1306.0,
+    "average_pace": "5:23",
+    "average_heartrate": 139.0,
+    "average_cadence": 188.8,
+    "laps": [
+      {
+        "lap_index": 1,
+        "distance_m": 1000.0,
+        "total_elevation_gain_m": 3.6,
+        "average_pace": "5:25",
+        "average_heartrate": 135.5
+      },
+      {
+        "lap_index": 2,
+        "distance_m": 1000.0,
+        "total_elevation_gain_m": 6.0,
+        "average_pace": "5:26",
+        "average_heartrate": 142.8
+      },
+      {
+        "lap_index": 3,
+        "distance_m": 1000.0,
+        "total_elevation_gain_m": 6.2,
+        "average_pace": "5:23",
+        "average_heartrate": 140.0
+      },
+      {
+        "lap_index": 4,
+        "distance_m": 1000.0,
+        "total_elevation_gain_m": 0.0,
+        "average_pace": "5:16",
+        "average_heartrate": 137.7
+      },
+      {
+        "lap_index": 5,
+        "distance_m": 33.86,
+        "total_elevation_gain_m": 0.0,
+        "average_pace": "5:24",
+        "average_heartrate": 139.0
+      }
+    ]
+  },
+  {
+    "activity_id": 18628181858,
+    "name": "朝のランニング",
+    "start_time": "2026-05-24T08:46:45",
+    "distance_km": 8.53,
+    "moving_time_sec": 2970.0,
+    "average_pace": "5:48",
+    "average_heartrate": 134.1,
+    "average_cadence": 191.4,
+    "laps": [
+      {
+        "lap_index": 1,
+        "distance_m": 1000.0,
+        "total_elevation_gain_m": 2.6,
+        "average_pace": "7:09",
+        "average_heartrate": 111.9
+      },
+      {
+        "lap_index": 2,
+        "distance_m": 1000.0,
+        "total_elevation_gain_m": 2.0,
+        "average_pace": "5:49",
+        "average_heartrate": 130.7
+      },
+      {
+        "lap_index": 3,
+        "distance_m": 1000.0,
+        "total_elevation_gain_m": 2.2,
+        "average_pace": "5:48",
+        "average_heartrate": 134.2
+      },
+      {
+        "lap_index": 4,
+        "distance_m": 1000.0,
+        "total_elevation_gain_m": 4.8,
+        "average_pace": "5:46",
+        "average_heartrate": 135.1
+      },
+      {
+        "lap_index": 5,
+        "distance_m": 1000.0,
+        "total_elevation_gain_m": 3.6,
+        "average_pace": "5:46",
+        "average_heartrate": 137.9
+      },
+      {
+        "lap_index": 6,
+        "distance_m": 1000.0,
+        "total_elevation_gain_m": 2.0,
+        "average_pace": "5:49",
+        "average_heartrate": 140.2
+      },
+      {
+        "lap_index": 7,
+        "distance_m": 1000.0,
+        "total_elevation_gain_m": 1.8,
+        "average_pace": "5:48",
+        "average_heartrate": 140.1
+      },
+      {
+        "lap_index": 8,
+        "distance_m": 1000.0,
+        "total_elevation_gain_m": 0.0,
+        "average_pace": "6:04",
+        "average_heartrate": 138.9
+      },
+      {
+        "lap_index": 9,
+        "distance_m": 532.49,
+        "total_elevation_gain_m": 3.2,
+        "average_pace": "5:41",
+        "average_heartrate": 141.4
+      }
+    ]
+  }
+]
