@@ -1,0 +1,537 @@
+[
+  {
+    "activity_id": 18653675021,
+    "name": "朝のランニング",
+    "start_time": "2026-05-26T05:40:21",
+    "distance_km": 7.05,
+    "moving_time_sec": 2471.0,
+    "average_pace": "5:50",
+    "average_heartrate": 129.2,
+    "average_cadence": 182.0,
+    "laps": [
+      {
+        "lap_index": 1,
+        "distance_m": 1000.0,
+        "total_elevation_gain_m": 2.6,
+        "average_pace": "6:06",
+        "average_heartrate": 119.1
+      },
+      {
+        "lap_index": 2,
+        "distance_m": 1000.0,
+        "total_elevation_gain_m": 2.0,
+        "average_pace": "5:54",
+        "average_heartrate": 129.2
+      },
+      {
+        "lap_index": 3,
+        "distance_m": 1000.0,
+        "total_elevation_gain_m": 2.0,
+        "average_pace": "6:32",
+        "average_heartrate": 123.3
+      },
+      {
+        "lap_index": 4,
+        "distance_m": 1000.0,
+        "total_elevation_gain_m": 6.8,
+        "average_pace": "5:44",
+        "average_heartrate": 131.2
+      },
+      {
+        "lap_index": 5,
+        "distance_m": 1000.0,
+        "total_elevation_gain_m": 2.8,
+        "average_pace": "5:41",
+        "average_heartrate": 133.8
+      },
+      {
+        "lap_index": 6,
+        "distance_m": 1000.0,
+        "total_elevation_gain_m": 3.0,
+        "average_pace": "5:50",
+        "average_heartrate": 131.7
+      },
+      {
+        "lap_index": 7,
+        "distance_m": 1000.0,
+        "total_elevation_gain_m": 7.2,
+        "average_pace": "5:38",
+        "average_heartrate": 137.0
+      },
+      {
+        "lap_index": 8,
+        "distance_m": 48.28,
+        "total_elevation_gain_m": 0.0,
+        "average_pace": "5:31",
+        "average_heartrate": 133.5
+      }
+    ]
+  },
+  {
+    "activity_id": 18667476158,
+    "name": "1kmペース走",
+    "start_time": "2026-05-27T06:36:11",
+    "distance_km": 5.01,
+    "moving_time_sec": 1654.0,
+    "average_pace": "5:30",
+    "average_heartrate": 135.7,
+    "average_cadence": 184.2,
+    "laps": [
+      {
+        "lap_index": 1,
+        "distance_m": 1000.0,
+        "total_elevation_gain_m": 0.0,
+        "average_pace": "5:43",
+        "average_heartrate": 117.9
+      },
+      {
+        "lap_index": 2,
+        "distance_m": 1000.0,
+        "total_elevation_gain_m": 3.0,
+        "average_pace": "5:25",
+        "average_heartrate": 133.6
+      },
+      {
+        "lap_index": 3,
+        "distance_m": 1000.0,
+        "total_elevation_gain_m": 0.0,
+        "average_pace": "3:52",
+        "average_heartrate": 160.9
+      },
+      {
+        "lap_index": 4,
+        "distance_m": 1000.0,
+        "total_elevation_gain_m": 2.6,
+        "average_pace": "6:27",
+        "average_heartrate": 137.0
+      },
+      {
+        "lap_index": 5,
+        "distance_m": 1000.0,
+        "total_elevation_gain_m": 3.8,
+        "average_pace": "5:58",
+        "average_heartrate": 137.0
+      },
+      {
+        "lap_index": 6,
+        "distance_m": 10.5,
+        "total_elevation_gain_m": 0.0,
+        "average_pace": "4:45",
+        "average_heartrate": 139.0
+      }
+    ]
+  },
+  {
+    "activity_id": 18681226668,
+    "name": "Morning Run",
+    "start_time": "2026-05-28T05:40:54",
+    "distance_km": 10.11,
+    "moving_time_sec": 3249.0,
+    "average_pace": "5:21",
+    "average_heartrate": 145.7,
+    "average_cadence": 188.6,
+    "laps": [
+      {
+        "lap_index": 1,
+        "distance_m": 1000.0,
+        "total_elevation_gain_m": 21.0,
+        "average_pace": "5:54",
+        "average_heartrate": 132.0
+      },
+      {
+        "lap_index": 2,
+        "distance_m": 1000.0,
+        "total_elevation_gain_m": 10.8,
+        "average_pace": "5:25",
+        "average_heartrate": 134.7
+      },
+      {
+        "lap_index": 3,
+        "distance_m": 1000.0,
+        "total_elevation_gain_m": 3.4,
+        "average_pace": "5:13",
+        "average_heartrate": 140.4
+      },
+      {
+        "lap_index": 4,
+        "distance_m": 1000.0,
+        "total_elevation_gain_m": 2.6,
+        "average_pace": "5:16",
+        "average_heartrate": 144.6
+      },
+      {
+        "lap_index": 5,
+        "distance_m": 1000.0,
+        "total_elevation_gain_m": 14.0,
+        "average_pace": "5:21",
+        "average_heartrate": 147.7
+      },
+      {
+        "lap_index": 6,
+        "distance_m": 1000.0,
+        "total_elevation_gain_m": 8.8,
+        "average_pace": "5:16",
+        "average_heartrate": 146.9
+      },
+      {
+        "lap_index": 7,
+        "distance_m": 1000.0,
+        "total_elevation_gain_m": 18.4,
+        "average_pace": "5:10",
+        "average_heartrate": 154.3
+      },
+      {
+        "lap_index": 8,
+        "distance_m": 1000.0,
+        "total_elevation_gain_m": 22.6,
+        "average_pace": "5:19",
+        "average_heartrate": 158.0
+      },
+      {
+        "lap_index": 9,
+        "distance_m": 1000.0,
+        "total_elevation_gain_m": 4.8,
+        "average_pace": "5:18",
+        "average_heartrate": 150.9
+      },
+      {
+        "lap_index": 10,
+        "distance_m": 1000.0,
+        "total_elevation_gain_m": 2.2,
+        "average_pace": "5:19",
+        "average_heartrate": 148.3
+      },
+      {
+        "lap_index": 11,
+        "distance_m": 110.96,
+        "total_elevation_gain_m": 3.2,
+        "average_pace": "5:06",
+        "average_heartrate": 154.2
+      }
+    ]
+  },
+  {
+    "activity_id": 18694806443,
+    "name": "Morning Run",
+    "start_time": "2026-05-29T06:02:13",
+    "distance_km": 6.02,
+    "moving_time_sec": 2048.0,
+    "average_pace": "5:40",
+    "average_heartrate": 137.3,
+    "average_cadence": 183.6,
+    "laps": [
+      {
+        "lap_index": 1,
+        "distance_m": 1000.0,
+        "total_elevation_gain_m": 2.2,
+        "average_pace": "5:46",
+        "average_heartrate": 121.3
+      },
+      {
+        "lap_index": 2,
+        "distance_m": 1000.0,
+        "total_elevation_gain_m": 2.2,
+        "average_pace": "5:41",
+        "average_heartrate": 134.3
+      },
+      {
+        "lap_index": 3,
+        "distance_m": 1000.0,
+        "total_elevation_gain_m": 3.4,
+        "average_pace": "5:33",
+        "average_heartrate": 140.6
+      },
+      {
+        "lap_index": 4,
+        "distance_m": 1000.0,
+        "total_elevation_gain_m": 4.6,
+        "average_pace": "6:03",
+        "average_heartrate": 138.7
+      },
+      {
+        "lap_index": 5,
+        "distance_m": 1000.0,
+        "total_elevation_gain_m": 2.4,
+        "average_pace": "5:40",
+        "average_heartrate": 144.2
+      },
+      {
+        "lap_index": 6,
+        "distance_m": 1000.0,
+        "total_elevation_gain_m": 0.0,
+        "average_pace": "5:36",
+        "average_heartrate": 145.3
+      },
+      {
+        "lap_index": 7,
+        "distance_m": 18.3,
+        "total_elevation_gain_m": 0.0,
+        "average_pace": "5:27",
+        "average_heartrate": 144.0
+      }
+    ]
+  },
+  {
+    "activity_id": 18694934165,
+    "name": "ウィンドスプリント",
+    "start_time": "2026-05-29T06:39:56",
+    "distance_km": 1.77,
+    "moving_time_sec": 681.0,
+    "average_pace": "6:23",
+    "average_heartrate": 137.5,
+    "average_cadence": 164.2,
+    "laps": [
+      {
+        "lap_index": 1,
+        "distance_m": 80.2,
+        "total_elevation_gain_m": 0.0,
+        "average_pace": "3:06",
+        "average_heartrate": 108.7
+      },
+      {
+        "lap_index": 2,
+        "distance_m": 155.75,
+        "total_elevation_gain_m": 0.0,
+        "average_pace": "12:49",
+        "average_heartrate": 119.7
+      },
+      {
+        "lap_index": 3,
+        "distance_m": 88.93,
+        "total_elevation_gain_m": 0.0,
+        "average_pace": "2:48",
+        "average_heartrate": 113.9
+      },
+      {
+        "lap_index": 4,
+        "distance_m": 151.7,
+        "total_elevation_gain_m": 0.0,
+        "average_pace": "13:13",
+        "average_heartrate": 123.7
+      },
+      {
+        "lap_index": 5,
+        "distance_m": 85.81,
+        "total_elevation_gain_m": 0.0,
+        "average_pace": "2:54",
+        "average_heartrate": 116.4
+      },
+      {
+        "lap_index": 6,
+        "distance_m": 1000.0,
+        "total_elevation_gain_m": 2.6,
+        "average_pace": "5:48",
+        "average_heartrate": 146.8
+      },
+      {
+        "lap_index": 7,
+        "distance_m": 215.26,
+        "total_elevation_gain_m": 3.0,
+        "average_pace": "5:48",
+        "average_heartrate": 149.4
+      }
+    ]
+  },
+  {
+    "activity_id": 18707003172,
+    "name": "5000m前日調整",
+    "start_time": "2026-05-30T05:45:49",
+    "distance_km": 4.12,
+    "moving_time_sec": 1362.0,
+    "average_pace": "5:30",
+    "average_heartrate": 137.1,
+    "average_cadence": 189.0,
+    "laps": [
+      {
+        "lap_index": 1,
+        "distance_m": 1000.0,
+        "total_elevation_gain_m": 0.0,
+        "average_pace": "5:31",
+        "average_heartrate": 123.7
+      },
+      {
+        "lap_index": 2,
+        "distance_m": 500.0,
+        "total_elevation_gain_m": 0.0,
+        "average_pace": "5:14",
+        "average_heartrate": 142.8
+      },
+      {
+        "lap_index": 3,
+        "distance_m": 500.0,
+        "total_elevation_gain_m": 0.0,
+        "average_pace": "3:34",
+        "average_heartrate": 159.7
+      },
+      {
+        "lap_index": 4,
+        "distance_m": 1000.0,
+        "total_elevation_gain_m": 0.0,
+        "average_pace": "6:15",
+        "average_heartrate": 138.9
+      },
+      {
+        "lap_index": 5,
+        "distance_m": 1000.0,
+        "total_elevation_gain_m": 7.4,
+        "average_pace": "5:47",
+        "average_heartrate": 138.1
+      },
+      {
+        "lap_index": 6,
+        "distance_m": 124.94,
+        "total_elevation_gain_m": 0.0,
+        "average_pace": "5:27",
+        "average_heartrate": 141.0
+      }
+    ]
+  },
+  {
+    "activity_id": 18724340047,
+    "name": "Afternoon Run",
+    "start_time": "2026-05-31T16:34:23",
+    "distance_km": 1.7,
+    "moving_time_sec": 587.0,
+    "average_pace": "5:45",
+    "average_heartrate": 141.6,
+    "average_cadence": 174.8,
+    "laps": [
+      {
+        "lap_index": 1,
+        "distance_m": 1000.0,
+        "total_elevation_gain_m": 9.2,
+        "average_pace": "5:47",
+        "average_heartrate": 136.5
+      },
+      {
+        "lap_index": 2,
+        "distance_m": 702.91,
+        "total_elevation_gain_m": 4.0,
+        "average_pace": "5:41",
+        "average_heartrate": 149.1
+      }
+    ]
+  },
+  {
+    "activity_id": 18725134465,
+    "name": "第103回 MxKディスタンストライアル 5000m 第3組",
+    "start_time": "2026-05-31T17:34:33",
+    "distance_km": 5.01,
+    "moving_time_sec": 1136.0,
+    "average_pace": "3:46",
+    "average_heartrate": 177.3,
+    "average_cadence": 194.4,
+    "laps": [
+      {
+        "lap_index": 1,
+        "distance_m": 400.0,
+        "total_elevation_gain_m": 0.0,
+        "average_pace": "3:49",
+        "average_heartrate": 151.4
+      },
+      {
+        "lap_index": 2,
+        "distance_m": 400.0,
+        "total_elevation_gain_m": 0.0,
+        "average_pace": "3:45",
+        "average_heartrate": 172.8
+      },
+      {
+        "lap_index": 3,
+        "distance_m": 400.0,
+        "total_elevation_gain_m": 0.0,
+        "average_pace": "3:45",
+        "average_heartrate": 176.3
+      },
+      {
+        "lap_index": 4,
+        "distance_m": 400.0,
+        "total_elevation_gain_m": 0.0,
+        "average_pace": "3:47",
+        "average_heartrate": 178.9
+      },
+      {
+        "lap_index": 5,
+        "distance_m": 400.0,
+        "total_elevation_gain_m": 4.6,
+        "average_pace": "3:47",
+        "average_heartrate": 180.7
+      },
+      {
+        "lap_index": 6,
+        "distance_m": 400.0,
+        "total_elevation_gain_m": 0.0,
+        "average_pace": "3:45",
+        "average_heartrate": 181.4
+      },
+      {
+        "lap_index": 7,
+        "distance_m": 400.0,
+        "total_elevation_gain_m": 0.0,
+        "average_pace": "3:47",
+        "average_heartrate": 182.2
+      },
+      {
+        "lap_index": 8,
+        "distance_m": 400.0,
+        "total_elevation_gain_m": 0.0,
+        "average_pace": "3:47",
+        "average_heartrate": 181.6
+      },
+      {
+        "lap_index": 9,
+        "distance_m": 400.0,
+        "total_elevation_gain_m": 0.0,
+        "average_pace": "3:47",
+        "average_heartrate": 179.6
+      },
+      {
+        "lap_index": 10,
+        "distance_m": 400.0,
+        "total_elevation_gain_m": 0.0,
+        "average_pace": "3:47",
+        "average_heartrate": 179.9
+      },
+      {
+        "lap_index": 11,
+        "distance_m": 400.0,
+        "total_elevation_gain_m": 0.0,
+        "average_pace": "3:49",
+        "average_heartrate": 180.7
+      },
+      {
+        "lap_index": 12,
+        "distance_m": 400.0,
+        "total_elevation_gain_m": 0.0,
+        "average_pace": "3:39",
+        "average_heartrate": 180.9
+      },
+      {
+        "lap_index": 13,
+        "distance_m": 210.0,
+        "total_elevation_gain_m": 0.0,
+        "average_pace": "3:20",
+        "average_heartrate": 181.1
+      }
+    ]
+  },
+  {
+    "activity_id": 18725672895,
+    "name": "Evening Run",
+    "start_time": "2026-05-31T18:25:47",
+    "distance_km": 0.65,
+    "moving_time_sec": 299.0,
+    "average_pace": "7:39",
+    "average_heartrate": 133.4,
+    "average_cadence": 169.2,
+    "laps": [
+      {
+        "lap_index": 1,
+        "distance_m": 651.35,
+        "total_elevation_gain_m": 0.0,
+        "average_pace": "7:42",
+        "average_heartrate": 133.4
+      }
+    ]
+  }
+]
